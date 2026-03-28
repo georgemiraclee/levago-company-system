@@ -460,9 +460,6 @@ section { padding: 100px 0; }
 
 @section('content')
 
-<div class="c-dot"  id="cDot"></div>
-<div class="c-ring" id="cRing"></div>
-
 <!-- ════════ HERO ════════ -->
 <section id="hero">
   <video class="hero-video" autoplay muted loop playsinline preload="auto">

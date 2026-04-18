@@ -325,8 +325,8 @@
             <div class="mile-dot">📈</div>
             <div class="mile-text">
               <div class="mile-year">2023</div>
-              <h4>10 Project Pertama</h4>
-              <p>Berhasil deliver 10 project dengan rating kepuasan 100% dari semua klien.</p>
+              <h4>Project Pertama</h4>
+              <p>Berhasil deliver project dengan rating kepuasan 100% dari semua klien.</p>
             </div>
           </div>
           <div class="mile-item">
@@ -341,14 +341,14 @@
             <div class="mile-dot">🎯</div>
             <div class="mile-text">
               <div class="mile-year">2025</div>
-              <h4>50+ Klien Terpercaya</h4>
-              <p>Mempercayai diri untuk menangani project skala enterprise dan startup tech.</p>
+              <h4>6+ Klien Terpercaya</h4>
+              <p>Mempercayai diri untuk menangani project skala enterprise dan exportir company.</p>
             </div>
           </div>
         </div>
       </div>
       <div class="mile-stats-side js-reveal">
-        <div class="mstat"><strong>50+</strong><span>Project Selesai</span></div>
+        <div class="mstat"><strong>6+</strong><span>Project Selesai</span></div>
         <div class="mstat"><strong>3+</strong><span>Tahun Pengalaman</span></div>
         <div class="mstat"><strong>98%</strong><span>Client Puas</span></div>
         <div class="mstat"><strong>100%</strong><span>Garansi Revisi</span></div>

@@ -475,7 +475,7 @@ section { padding: 100px 0; }
         <a href="{{ route('services') }}" class="btn-ghost">Lihat Layanan →</a>
       </div>
       <div class="hero-stats" id="hStats">
-        <div class="hstat"><strong><span class="hcnt" data-to="50" data-sfx="+">50+</span></strong><span>Project Selesai</span></div>
+        <div class="hstat"><strong><span class="hcnt" data-to="6" data-sfx="+">6+</span></strong><span>Project Selesai</span></div>
         <div class="hstat"><strong>3 Thn</strong><span>Pengalaman</span></div>
         <div class="hstat"><strong><span class="hcnt" data-to="98" data-sfx="%">98%</span></strong><span>Client Puas</span></div>
         <div class="hstat"><strong>24/7</strong><span>Support</span></div>
@@ -533,7 +533,7 @@ section { padding: 100px 0; }
 <div class="counters-section">
   <div class="container">
     <div class="counters-grid">
-      <div class="ctr-item js-ctr"><span class="ctr-val" data-to="50"  data-sfx="+">6+</span><div class="ctr-lbl">Project Selesai</div></div>
+      <div class="ctr-item js-ctr"><span class="ctr-val" data-to="6"  data-sfx="+">6+</span><div class="ctr-lbl">Project Selesai</div></div>
       <div class="ctr-item js-ctr"><span class="ctr-val" data-to="3"   data-sfx=" Thn">3 Thn</span><div class="ctr-lbl">Pengalaman</div></div>
       <div class="ctr-item js-ctr"><span class="ctr-val" data-to="98"  data-sfx="%">98%</span><div class="ctr-lbl">Client Puas</div></div>
       <div class="ctr-item js-ctr"><span class="ctr-val" data-to="100" data-sfx="%">100%</span><div class="ctr-lbl">Garansi Revisi</div></div>
@@ -582,7 +582,7 @@ section { padding: 100px 0; }
         <div class="tech-title">Hosting</div>
         <div class="tech-tags"><span class="ttag">VPS Hostinger</span><span class="ttag">Docker</span><span class="ttag">GitHub CI/CD</span></div>
         <div class="sol-stats">
-          <div class="solstat"><strong>50+</strong><span>Project Live</span></div>
+          <div class="solstat"><strong>6+</strong><span>Project Live</span></div>
           <div class="solstat"><strong>3 Thn</strong><span>Pengalaman</span></div>
           <div class="solstat"><strong>100%</strong><span>Garansi Revisi</span></div>
         </div>

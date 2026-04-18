@@ -533,7 +533,7 @@ section { padding: 100px 0; }
 <div class="counters-section">
   <div class="container">
     <div class="counters-grid">
-      <div class="ctr-item js-ctr"><span class="ctr-val" data-to="50"  data-sfx="+">50+</span><div class="ctr-lbl">Project Selesai</div></div>
+      <div class="ctr-item js-ctr"><span class="ctr-val" data-to="50"  data-sfx="+">6+</span><div class="ctr-lbl">Project Selesai</div></div>
       <div class="ctr-item js-ctr"><span class="ctr-val" data-to="3"   data-sfx=" Thn">3 Thn</span><div class="ctr-lbl">Pengalaman</div></div>
       <div class="ctr-item js-ctr"><span class="ctr-val" data-to="98"  data-sfx="%">98%</span><div class="ctr-lbl">Client Puas</div></div>
       <div class="ctr-item js-ctr"><span class="ctr-val" data-to="100" data-sfx="%">100%</span><div class="ctr-lbl">Garansi Revisi</div></div>

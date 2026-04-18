@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!-- Di <head> layout.blade.php, sebelum @yield('head') -->
+<link rel="icon" type="image/png" href="{{ asset('levago_indonesia_logo.jpeg') }}">
   <title>@yield('title', 'Levago — Partner Digital Bisnis Kamu')</title>
   <meta name="description" content="@yield('description', 'Levago membantu UMKM, startup, dan personal brand memiliki website dan aplikasi profesional.')">
   <meta name="csrf-token" content="{{ csrf_token() }}">

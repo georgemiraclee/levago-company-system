@@ -359,13 +359,12 @@
         <ul>
           <li><a href="https://wa.me/6281234567890">+62 812-3456-7890</a></li>
           <li><a href="mailto:hello@levago.id">hello@levago.id</a></li>
-          <li><a href="#">Samarinda, Kaltim 🇮🇩</a></li>
+          <li><a href="#">Jakarta, Indonesia</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
       <p>© {{ date('Y') }} Levago Indonesia. All rights reserved.</p>
-      <p>Made with ❤️ in Samarinda</p>
     </div>
   </div>
 </footer>

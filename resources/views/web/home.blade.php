@@ -134,12 +134,32 @@
 }
 .btn-ghost:hover { background: var(--gray-100); border-color: var(--gray-400); transform: translateY(-3px); }
 
-.hero-stats { display: flex; gap: 0; flex-wrap: wrap; }
-.hstat { padding: 0 32px 0 0; margin-right: 32px; border-right: 1px solid var(--gray-200); }
-.hstat:last-child { border-right: none; margin-right: 0; }
+/* Ganti bagian ini di dalam @media(max-width:640px) */
+.hero-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+}
+
+.hstat {
+  padding: 16px 20px;
+  margin-right: 0;
+  border-right: none;
+  border-bottom: 1px solid var(--gray-200);
+}
+
+/* Kolom kiri punya border kanan */
+.hstat:nth-child(odd) {
+  border-right: 1px solid var(--gray-200);
+}
+
+/* Baris terakhir (item 3 & 4) tidak perlu border bawah */
+.hstat:nth-last-child(-n+2) {
+  border-bottom: none;
+}
+
 .hstat strong {
-  font-family: var(--font-display); font-size: 30px; font-weight: 900; display: block; line-height: 1;
-  color: var(--navy);
+  font-size: 26px;
 }
 .hstat span { font-family: var(--font-body); font-size: 12px; color: var(--text-muted); margin-top: 5px; display: block; letter-spacing: .03em; }
 
@@ -434,6 +454,19 @@ section { padding: 100px 0; }
 ══════════════════════════════════════════ */
 @media(max-width:900px){
   .hero-inner { grid-template-columns:1fr; padding-top:120px; padding-bottom:80px; }
+    .hero-stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+  }
+  .hstat {
+    padding: 16px 20px;
+    margin-right: 0;
+    border-right: none;
+    border-bottom: 1px solid var(--gray-200);
+  }
+  .hstat:nth-child(odd) { border-right: 1px solid var(--gray-200); }
+  .hstat:nth-last-child(-n+2) { border-bottom: none; }
   .float-cards { display:none; }
   .sol-wrap { grid-template-columns:1fr; }
   .steps-wrap { grid-template-columns:repeat(3,1fr); }
@@ -475,9 +508,9 @@ section { padding: 100px 0; }
         <a href="{{ route('services') }}" class="btn-ghost">Lihat Layanan →</a>
       </div>
       <div class="hero-stats" id="hStats">
-        <div class="hstat"><strong><span class="hcnt" data-to="6" data-sfx="+">6+</span></strong><span>Project Selesai</span></div>
+        <div class="hstat"><strong>10+</strong><span>Project Selesai</span></div>
         <div class="hstat"><strong>3 Thn</strong><span>Pengalaman</span></div>
-        <div class="hstat"><strong><span class="hcnt" data-to="98" data-sfx="%">98%</span></strong><span>Client Puas</span></div>
+        <div class="hstat"><strong>98%</strong><span>Client Puas</span></div>
         <div class="hstat"><strong>24/7</strong><span>Support</span></div>
       </div>
     </div>

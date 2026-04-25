@@ -348,7 +348,7 @@
         </div>
       </div>
       <div class="mile-stats-side js-reveal">
-        <div class="mstat"><strong>6+</strong><span>Project Selesai</span></div>
+        <div class="mstat"><strong>10+</strong><span>Project Selesai</span></div>
         <div class="mstat"><strong>3+</strong><span>Tahun Pengalaman</span></div>
         <div class="mstat"><strong>98%</strong><span>Client Puas</span></div>
         <div class="mstat"><strong>100%</strong><span>Garansi Revisi</span></div>

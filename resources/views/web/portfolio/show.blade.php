@@ -42,7 +42,7 @@
       @if($portfolio->images && count($portfolio->images) > 0)
         <div class="port-images reveal">
           @foreach($portfolio->images as $img)
-            <img src="{{ $img }}" alt="{{ $portfolio->title }}">
+            <img src="{{ asset('storage/' . $img) }}" alt="{{ $portfolio->title }}">
           @endforeach
         </div>
       @endif

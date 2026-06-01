@@ -55,7 +55,7 @@
         <a href="{{ route('portfolio.show', $p->slug) }}" class="portfolio-card reveal">
           <div class="portfolio-thumb">
             @if($p->images && count($p->images) > 0)
-              <img src="{{ $p->images[0] }}" alt="{{ $p->title }}">
+            <img src="{{ asset('storage/' . $p->images[0]) }}" alt="{{ $p->title }}">
             @else
               <span style="font-size:52px;opacity:.25">🖥️</span>
             @endif

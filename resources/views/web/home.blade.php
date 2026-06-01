@@ -565,7 +565,7 @@ section { padding: 100px 0; }
 <!-- ════════ COUNTERS ════════ -->
 <div class="counters-section">
   <div class="container">
-    <div class="counters-grid">x
+    <div class="counters-grid">
       <div class="ctr-item js-ctr"><span class="ctr-val" data-to="10"  data-sfx="+">10+</span><div class="ctr-lbl">Project Selesai</div></div>
       <div class="ctr-item js-ctr"><span class="ctr-val" data-to="3"   data-sfx=" Thn">3 Thn</span><div class="ctr-lbl">Pengalaman</div></div>
       <div class="ctr-item js-ctr"><span class="ctr-val" data-to="98"  data-sfx="%">98%</span><div class="ctr-lbl">Client Puas</div></div>
@@ -675,7 +675,7 @@ section { padding: 100px 0; }
       <a href="{{ route('portfolio.show', $p->slug) }}" class="port-card js-reveal">
         <div class="port-thumb">
           @if($p->images && count($p->images) > 0)
-            <img src="{{ $p->images[0] }}" alt="{{ $p->title }}">
+            <img src="{{ asset('storage/' . $p->images[0]) }}" alt="{{ $p->title }}">
           @else
             <span style="font-size:52px;opacity:.2">🖥️</span>
           @endif

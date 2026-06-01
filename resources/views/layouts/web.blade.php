@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!-- Di <head> layout.blade.php, sebelum @yield('head') -->
+<link rel="icon" type="image/png" href="{{ asset('levago_indonesia_logo.jpeg') }}">
   <title>@yield('title', 'Levago — Partner Digital Bisnis Kamu')</title>
   <meta name="description" content="@yield('description', 'Levago membantu UMKM, startup, dan personal brand memiliki website dan aplikasi profesional.')">
   <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -359,13 +361,12 @@
         <ul>
           <li><a href="https://wa.me/6281234567890">+62 812-3456-7890</a></li>
           <li><a href="mailto:hello@levago.id">hello@levago.id</a></li>
-          <li><a href="#">Samarinda, Kaltim 🇮🇩</a></li>
+          <li><a href="#">Jakarta, Indonesia</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
       <p>© {{ date('Y') }} Levago Indonesia. All rights reserved.</p>
-      <p>Made with ❤️ in Samarinda</p>
     </div>
   </div>
 </footer>

@@ -28,18 +28,43 @@ class AdminPanelProvider extends PanelProvider
             ->id('admin')
             ->path('admin')
             ->login()
+
+            // 🎨 Warna utama
             ->colors([
                 'primary' => Color::Blue,
             ])
+
+            // 🧠 Branding
             ->brandName('Levago Admin')
-            ->discoverResources(in: app_path('Filament/Resources'), for: 'App\\Filament\\Resources')
-            ->discoverPages(in: app_path('Filament/Pages'), for: 'App\\Filament\\Pages')
-            ->pages([Pages\Dashboard::class])
-            ->discoverWidgets(in: app_path('Filament/Widgets'), for: 'App\\Filament\\Widgets')
+            ->brandLogo('https://levago.netlify.app/_next/image?url=%2Fimages%2Flevago%2Fbrand.png&w=256&q=75')
+            ->brandLogoHeight('25px') // biar gak gede kocak 😄
+
+            // 📦 Auto discover
+            ->discoverResources(
+                in: app_path('Filament/Resources'),
+                for: 'App\\Filament\\Resources'
+            )
+            ->discoverPages(
+                in: app_path('Filament/Pages'),
+                for: 'App\\Filament\\Pages'
+            )
+
+            // 🧾 Dashboard
+            ->pages([
+                Pages\Dashboard::class,
+            ])
+
+            // 📊 Widgets
+            ->discoverWidgets(
+                in: app_path('Filament/Widgets'),
+                for: 'App\\Filament\\Widgets'
+            )
             ->widgets([
                 StatsOverview::class,
                 Widgets\AccountWidget::class,
             ])
+
+            // 🔐 Middleware
             ->middleware([
                 EncryptCookies::class,
                 AddQueuedCookiesToResponse::class,
@@ -51,6 +76,9 @@ class AdminPanelProvider extends PanelProvider
                 DisableBladeIconComponents::class,
                 DispatchServingFilamentEvent::class,
             ])
-            ->authMiddleware([Authenticate::class]);
+
+            ->authMiddleware([
+                Authenticate::class,
+            ]);
     }
 }

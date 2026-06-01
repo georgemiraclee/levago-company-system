@@ -56,7 +56,7 @@
       <p class="section-sub" style="margin-bottom:28px">Tim kami siap membantu kamu membangun kehadiran digital yang profesional dan menghasilkan.</p>
       <div class="channel"><div class="channel-icon">💬</div><div class="channel-text"><span>WhatsApp (Respon cepat)</span><strong>+62 812-3456-7890</strong></div></div>
       <div class="channel"><div class="channel-icon">📧</div><div class="channel-text"><span>Email</span><strong>hello@levago.id</strong></div></div>
-      <div class="channel"><div class="channel-icon">📍</div><div class="channel-text"><span>Kantor</span><strong>Samarinda, Kalimantan Timur</strong></div></div>
+      <div class="channel"><div class="channel-icon">📍</div><div class="channel-text"><span>Kantor</span><strong>Jakarta, Indonesia</strong></div></div>
       <div class="channel"><div class="channel-icon">🕐</div><div class="channel-text"><span>Jam Operasional</span><strong>Senin–Sabtu, 09.00–18.00 WITA</strong></div></div>
     </div>
     <div class="contact-form reveal">
